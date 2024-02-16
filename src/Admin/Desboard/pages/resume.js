@@ -4,6 +4,7 @@ import Cookies from "js-cookie";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 
 export default function Resume() {
+  const [data, setdata] = useState();
   useEffect(() => {
     const token = Cookies.get("Token");
     // console.log(token);
@@ -36,14 +37,16 @@ export default function Resume() {
         },
       })
       .then((response) => {
-        console.log(`${response}`);
+        let NewData = data.findIndex((x) => (x._id === id))
+        NewData = data.slice(0,NewData)
+        setdata([...NewData])
       })
       .catch((error) => {
+        setdata([...data])
         console.error(error);
       });
-    console.log(id);
   };
-  const [data, setdata] = useState();
+
   // console.log(data?.length);
   return (
     <>
@@ -60,13 +63,13 @@ export default function Resume() {
                     style={{ width: "18rem" }}
                   >
                     <div className="position-relative" >
-                    <button
-                      onClick={() => dlt(text._id)}
-                      className="btn btn-danger position-absolute" 
-                      style={{ right: "25px", top: "10px" ,zIndex :"10" }}
-                    >
-                      <DeleteForeverIcon />
-                    </button>
+                      <button
+                        onClick={() => dlt(text._id)}
+                        className="btn btn-danger position-absolute"
+                        style={{ right: "25px", top: "10px", zIndex: "10" }}
+                      >
+                        <DeleteForeverIcon />
+                      </button>
                       <div className="rounded-md position-absolute  h-100 w-100" onClick={() => { window.open(text.CV_Url, '_blank'); }} />
                       <iframe src={text.CV_Url} style={{ height: "100%", overflow: "hidden" }} scrolling="no" className="card-img-top scrol w-100 h-100" />
                     </div>

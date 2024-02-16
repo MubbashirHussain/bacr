@@ -27,8 +27,12 @@ function CreerForm() {
             setIsLoading(true)
             axios.post('https://bacr-backend.vercel.app/api/cv', Form, { headers: { "Content-Type": "multipart/form-data" } }).then((res) => {
                 alert("CV Submited")
+                setInput({ Team: "", ApplyingFor: "", FullName: "" })
+                setCVFile(null)
                 setIsLoading(false)
-            }).catch((err) => { setIsLoading(false); console.log(err); alert("CV Not Submit") })
+            }).catch((err) => { 
+                setIsLoading(false); console.log(err); alert("CV Not Submit")
+            })
         } else {
             alert("Please Fill All Feild")
         }
@@ -51,13 +55,13 @@ function CreerForm() {
                     <div className='col-lg-8 col-sm-12 col-md-12   d-flex justify-content-center align-items-center form-R-main mt-lg-5'>
                         <div className=' from-inner d-flex justify-content-center align-items-center flex-column w-100 m-4 warning'>
                             <div className='buttons-dov w-100 bg- d-flex justify-content-between bg w-100 align-items-center'>
-                                <button className={`btn`} style={{ background: Input.Team == "ManagementTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "ManagementTeam") }}>Management Team</button>
-                                <button className={`btn`} style={{ background: Input.Team == "HVACRTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "HVACRTeam") }}>HVACR Team</button>
-                                <button className={`btn`} style={{ background: Input.Team == "ServiceTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "ServiceTeam") }}>Service Team</button>
+                                <button className={`btn`} style={{ background: Input.Team && Input.Team == "ManagementTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "ManagementTeam") }}>Management Team</button>
+                                <button className={`btn`} style={{ background: Input.Team && Input.Team == "HVACRTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "HVACRTeam") }}>HVACR Team</button>
+                                <button className={`btn`} style={{ background: Input.Team && Input.Team == "ServiceTeam" ? "#858585" : "" }} onClick={() => { getInput("Team", "ServiceTeam") }}>Service Team</button>
                             </div>
                             <div className='title-inputs gap-2 w-100 d-flex justify-content-evenly align-items-center'>
-                                <input onChange={(e) => { getInput("FullName", e.target.value) }} placeholder='Full Name' className='w-50 ' />
-                                <input onChange={(e) => { getInput("ApplyingFor", e.target.value) }} placeholder='Applying For' className='w-50 ' />
+                                <input value={Input.FullName} onChange={(e) => { getInput("FullName", e.target.value) }} placeholder='Full Name' className='w-50 ' />
+                                <input value={Input.ApplyingFor} onChange={(e) => { getInput("ApplyingFor", e.target.value) }} placeholder='Applying For' className='w-50 ' />
                             </div>
                             <div class='file-input d-flex justify-content-center'>
                                 <input id='file-upload' onChange={(e) => { setCVFile(e.target.files[0]) }} class='w-100' type='file' data-file-name='' />

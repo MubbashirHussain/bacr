@@ -43,7 +43,7 @@ function Spare_Parts() {
                     <div className='col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center bg-left' data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
-                        <h1 className='fs-1 text-center  w-75'><span className='fw-bolder' data-aos="fade-right"
+                        <h1 className='fs-1 text-center'><span className='fw-bolder' data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine"
                             data-aos-duration="1000">Premium Spare Parts for Longevity and Performance</span> </h1>
