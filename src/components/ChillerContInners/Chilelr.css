@@ -1,0 +1,36 @@
+.chiller-bg-div {
+    width: 45vh;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.bg1 {
+    background-image: url("./ChillerPLant/Rectangle\ 4744.png");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background-image: url("./ChillerPLant/Rectangle\ 4751.png");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url("./ChillerPLant/Rectangle\ 4752.png");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.bg-hover {
+    width: 100%;
+    z-index: 5;
+    /* top: 100% !important; */
+    height: 30%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(0, 70, 113, 0.60);
+}

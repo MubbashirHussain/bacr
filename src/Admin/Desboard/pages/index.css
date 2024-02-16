@@ -1,0 +1,7 @@
+.custom_file {
+    border: 1px solid black;
+
+}
+iframe::-webkit-scrollbar{
+    width: 0;
+}

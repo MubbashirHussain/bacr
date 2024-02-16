@@ -1,0 +1,268 @@
+.zia-imges img {
+    /* opacity: .8; */
+    width: 20vw;
+    margin: 10px;
+
+
+    height: 30vh;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* Adjust the delay for each image */
+.zia-imges {
+    display: flex;
+    right: 0%;
+    top: 80%;
+    position: absolute;
+    /* transition: transform 4s ease-in; */
+    /* Adjust the total duration for sequential animations */
+}
+
+
+.Absorb-inner {
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.disable {
+    position: relative;
+}
+
+.disable::after {
+    z-index: 10;
+    height: 1100px;
+    width: 100vw;
+    content: "";
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+}
+
+.pop-conatiner h1 {
+    /* text-align: center !important; */
+    color: #005471;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+
+@media screen and (max-width:767px) {}
+
+.pop-conatiner {
+    cursor: pointer;
+    padding: 50px;
+    border-radius: 25px;
+    z-index: 12;
+    background-color: white;
+}
+
+.pop-conatiner i {
+    transition: .2s;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.pop-conatiner i:hover {
+    color: #005471;
+    scale: 1.3;
+}
+
+.zia-btn {
+    background-color: #033f53;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: .5s ease;
+
+}
+
+.zia-btn:hover {
+    transform: scale(.9);
+    background-color: #ffffff;
+    height: 40px;
+    width: 150px;
+    color: #005471;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .zia-imges {
+        flex-direction: column !important;
+        /* margin-bottom: 2000px !important; */
+    }
+
+    .zia-imges img {
+        margin-top: 20px;
+        width: 65vw;
+    }
+
+    .img-div-zia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw !important;
+    }
+
+    .h1-div-zia {
+        width: 100% !important;
+    }
+}
+
+.pSO-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.pSO-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../PSOInnerrPic/45c6798d6fd2ce76c682ad05b3d3069d.png)
+}
+
+
+
+
+
+.devis-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.devis-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../DevisInnerPic/02c13fa9084263b37873ea19543b0264.png")
+}
+
+.Union-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.Union-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../UnionPIC/Rectangle\ 4770.png") !important;
+}
+
+.zarghun-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.zarghun-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../ZarghunPics/Rectangle\ 4771.png")
+}
+
+.phamra-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.phamra-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../UgaritPics/49f814a4ee43037f37d68bd7d310d10b.png")
+}
+
+.zia-bg-inner {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.zia-bg-inner {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../ziaInnerPic/25bc66349758869f74cc72ce19c71925.png")
+}
+
+
+.Tufail-bg-img {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.Tufail-bg-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../TufailChemicals/bc6f3b52ec3fcad71e925bc6cd84f396.png') */
+}
+
+/* PHRMA */
+
+.PHRAMA {
+    margin-bottom: 200px !important;
+    position: relative;
+}
+
+.PHRAMA {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./mainPhrma.png')
+}

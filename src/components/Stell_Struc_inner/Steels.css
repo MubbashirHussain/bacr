@@ -1,0 +1,80 @@
+    .stel4_P {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #005471;
+        border-radius: 20px;
+        /* background-color: red; */
+        font-size: xx-small;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .steel4-sec {
+        background-color: rgba(128, 128, 128, 0.131);
+    }
+
+    @media screen and (max-width:767px) {
+        .stel4_P {
+            font-size: smaller !important;
+        }
+
+        .boxp {
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+    }
+
+    .steel4_btn {
+        top: -7%;
+        border-radius: 7px;
+        height: 30px;
+        position: absolute;
+        left: 25%;
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        background-color: #003e71;
+    }
+
+    .steel4_btn p {
+        padding-top: 12px;
+    }
+
+    .stell4-img-div1 {
+        /* height: 100px !important; */
+    }
+
+    .stell4-img-div1 img {
+        border-radius: 10px;
+        width: 100%;
+        height: 30vh;
+        /* height: 90% !important; */
+
+    }
+
+    /* STEEL 5 START */
+
+    .bg-div5 img {
+        border-left: 10px solid #005471;
+        border-top: 10px solid #005471;
+        background-size: contain;
+        height: 35vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* height: 100%; */
+
+    }
+
+    .bg-div6 img {
+        border-bottom: 10px solid #005471;
+        border-right: 10px solid #005471;
+        background-size: contain;
+        height: 35vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* height: 100%; */
+
+    }

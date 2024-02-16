@@ -1,0 +1,239 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* font-family: 'Poppins', sans-serif !important; */
+
+}
+
+/* ==================ABOUT TOP CSS START================= */
+.Rside {
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 30% 30%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/3a19/1810/395513190876260b226ea32aa5054f03?Expires=1705276800&Signature=F97DCvPQeWqZX3hX~0oPBZk5AbTuclkudlWn37PRqC1f1gfQpHhmpNtj14gmHSumfoo8zdSs-mMwfeNWzwrycNksMcxcoQK-yWl~ALOCn3G488AF55ZyNToVLViK1gu14veq5~iUJXKVTIOVKbAv5ZQRs~~eGwtVHxeA6FQUSmGsl2Tiw2lBAL6xEiztK4rp4uSDG~7j-WMdb-Rv8EwjX6PzdmF3P0HeL0WZYr8ChBMnNdu7ZS2tJnJnRh0SWvC7wM3Wu715kJZrfuaarWQTS6WQTgAGQrVZJPuFyEA3z-iMAnwzqJarGNm~jkKklLyGtl-h6OAtu3I~e5ZRm2ab2w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); */
+    height: 100%;
+    background-color: #2196bc;
+    position: relative;
+    border-radius: 50px;
+}
+
+.ul{
+    list-style-type: circle;
+}
+.Ceo-img {
+    /* background-color: orange !important; */
+    overflow: hidden;
+    /* height: 100%; */
+    top: 13%;
+    left: 0%;
+    position: absolute;
+    /* background-color: red; */
+}
+
+.Ceo-img {
+    height: 100% !important;
+}
+
+.Ceo-img img {
+    overflow: auto !important;
+    height: 450px;
+    width: auto;
+}
+
+.about-btn img {
+    width: 100px;
+}
+
+.about-btn button:hover {
+    /* transition: .2s; */
+    color: white !important;
+}
+
+@media screen and (max-width:767px) {
+    .Rside {
+        /* overflow: hidden; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* background-size: 30% 30%;
+        background-image: url('https://s3-alpha-sig.figma.com/img/3a19/1810/395513190876260b226ea32aa5054f03?Expires=1705276800&Signature=F97DCvPQeWqZX3hX~0oPBZk5AbTuclkudlWn37PRqC1f1gfQpHhmpNtj14gmHSumfoo8zdSs-mMwfeNWzwrycNksMcxcoQK-yWl~ALOCn3G488AF55ZyNToVLViK1gu14veq5~iUJXKVTIOVKbAv5ZQRs~~eGwtVHxeA6FQUSmGsl2Tiw2lBAL6xEiztK4rp4uSDG~7j-WMdb-Rv8EwjX6PzdmF3P0HeL0WZYr8ChBMnNdu7ZS2tJnJnRh0SWvC7wM3Wu715kJZrfuaarWQTS6WQTgAGQrVZJPuFyEA3z-iMAnwzqJarGNm~jkKklLyGtl-h6OAtu3I~e5ZRm2ab2w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'); */
+        height: 70vh !important;
+        width: 100% !important;
+        /* background-color: #005471; */
+        position: relative;
+        border-radius: 30px 0px 80px 0px;
+    }
+
+    .about h1 {
+        font-weight: bolder;
+        font-size: 3vh;
+    }
+
+    .Lside p {
+        font-size: 10px !important;
+    }
+
+    .Ceo-img {
+        /* right: 20% !important; */
+        width: 100%;
+        /* background-color: red; */
+        overflow: hidden;
+        text-align: center !important;
+        top: 10.5%;
+        /* bo */
+        /* left: -50% !important; */
+        position: absolute;
+        /* background-color: red; */
+    }
+
+    .Ceo-img img {
+        overflow: hidden;
+        height: auto;
+        width: 230px;
+    }
+
+    .about1_R {
+        border-radius: 10px;
+        /* transform: skew(12deg, -8deg); */
+        background-color: rgb(4, 19, 19);
+        width: 90vw !important;
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        background-image: url('./802A0068.JPG') !important;
+    }
+
+    .about3_R {
+        /* display: none !important; */
+    }
+
+    .about3_R img {
+        width: 90vw !important;
+    }
+}
+
+/* =====================ABOUT TOP END */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.about1_L h1 {
+
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.about-L-main {
+    /* padding-top: 120px !important; */
+}
+
+.about2-conatiner {
+    margin-top: 100px !important;
+}
+
+.about2_sec {
+
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+.about1_R {
+    border-radius: 10px;
+    /* transform: skew(12deg, -8deg);
+
+    */
+    background-color: rgb(4, 19, 19);
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-image: url('./802A0068.JPG');
+}
+
+.about3_R img {
+    border-radius: 10px;
+
+    background-color: rgb(4, 19, 19);
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    z-index: 200;
+    /* background-image: url('./about\ discuss.jpg'); */
+    transform: skew(deg, 15deg);
+}
+
+
+/* About 4 start */
+.about4-L {
+
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+    background-color: red !important;
+
+}
+
+.about4-L::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 82, 174, 0.486);
+
+    border-radius: 10px;
+
+}
+
+.about4-L {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: column;
+    inset: 0;
+    isolation: isolate;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./hands.png');
+}
+
+.about4-L div {
+    margin-right: -30px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+}
+
+.about4-L i {
+    font-size: 30px;
+    color: #022837;
+}
+
+.about4_R h3 {
+    font-weight: bolder;
+    margin-top: 40px;
+
+}
+
+.about4_R p {
+
+    font-size: small !important;
+}
+
+.certi-div-about {
+    margin-bottom: 50px !important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: transparent !important;
+}

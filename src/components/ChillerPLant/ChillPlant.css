@@ -1,0 +1,45 @@
+.chill-img-main {
+    height: 40vh;
+    width: 50vh;
+}
+
+.chillL-img {
+    border-radius: 0px 130px 0px 0px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./Newfolder/Rectangle\ 4741.png');
+}
+
+.chillL2-img {
+    border-radius: 130px 0px 0px 0px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./Newfolder/Rectangle\ 4742\ \(1\).png');
+}
+
+.chill3 h1 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.lis1>div,
+.lis2>div {
+    margin-top: 10px;
+    font-size: smaller;
+    display: flex;
+    justify-content: start;
+}
+
+.lis1 i,
+.lis2 i {
+    margin: 5px;
+    color: rgb(196, 0, 0);
+    font-size: 15px;
+}
+
+.lis3 i {
+    margin-top: 5px !important;
+    color: green;
+}

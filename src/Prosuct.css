@@ -1,0 +1,134 @@
+.slide {
+
+
+    width: 600px !important;
+    border-radius: 25px !important;
+    margin: 0% auto;
+    /* width: fit-content !important; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+
+@media screen and (max-width:767px) {
+    .slide {
+        background-color: none !important;
+
+        width: 250px !important;
+        border-radius: 25px !important;
+        margin: 0% auto;
+
+    }
+
+    .carousel-control-next {
+        margin-right: -30px !important;
+        top: 30% !important;
+        width: 25px !important;
+        height: 25px !important;
+        border-radius: 50%;
+        color: #000;
+        background-color: #005471 !important;
+    }
+
+    .carousel-control-prev {
+        margin-left: -30px !important;
+        top: 30% !important;
+        width: 25px !important;
+        height: 25px !important;
+        border-radius: 50%;
+        color: #000;
+        background-color: #005471 !important;
+    }
+}
+
+.slide img {
+
+    margin: 0% auto;
+    border: 2px solid #00458e;
+    width: 100% !important;
+    border-radius: 25px !important;
+}
+
+.carousel-control-next {
+    margin-right: -70px;
+    top: 30%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #005471 !important;
+}
+
+.carousel-control-prev {
+    margin-left: -70px;
+    top: 30%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #005471 !important;
+}
+
+.carousel-control-next span,
+.carousel-control-prev span {
+    width: 20px;
+    /* font-size: 20px !important; */
+}
+
+.slider_img img {
+    margin: 10px;
+    width: 70px !important;
+    height: auto !important;
+}
+
+@media screen and (max-width:767px) {
+
+    .slider_img p,
+    .slider_img2 p {
+        margin: 10px;
+        font-size: xx-small;
+    }
+
+    .slider_img,
+    .slider_img2 {
+
+        flex-direction: column !important;
+    }
+
+    .carousel-control-next {
+
+        top: 50% !important;
+
+    }
+
+    .carousel-control-prev {
+        /* margin-left: -70px; */
+        top: 50% !important;
+
+    }
+
+    .slider-about {
+        /* background-color: red; */
+        width: 100% !important;
+
+    }
+
+    .slider-about h1 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .slider-about p {
+        font-size: 9px !important;
+    }
+}
+
+.slider_img p,
+.slider_img2 p {
+    margin: 10px;
+    font-size: small;
+}
+
+.slider_img2 img {
+    margin: 10px;
+    /* height: 500px !important; */
+    width: 70px !important;
+}

@@ -1,0 +1,773 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@media screen and (max-width:767px) {
+    .projR-main {
+        display: none !important;
+    }
+
+    .proj-conatiner {
+        margin-top: 0px !important;
+    }
+
+}
+
+.active1 {
+    color: white !important;
+    box-shadow: none !important;
+    background-color: #004671 !important;
+}
+
+.proj-L h4 {
+    color: #004671;
+}
+
+.proj-L h1 {
+    font-weight: bolder !important;
+}
+
+.proj-R {
+    position: relative;
+}
+
+.proj1-img-div {
+    position: relative;
+    /* background-color: aq ua; */
+}
+
+.proj1-img-div img {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.prog1-text p {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    font-size: 12px;
+}
+
+.prog1-text {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    top: -60px;
+    left: 200px;
+    bottom: 0%;
+    position: absolute;
+    color: white;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    background-color: #004671;
+}
+
+.proj2-main {
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* background-color: red; */
+    /* top: 150px; */
+    /* left: 320px; */
+    position: absolute;
+    top: 40%;
+    /* background-color: red !important; */
+    left: 20%;
+    margin-top: 20px;
+}
+
+.proj2-img-div {
+    /* background-color: red !important; */
+    left: 50%;
+    width: 50%;
+    position: relative;
+}
+
+
+
+.proj2-img-div img {
+
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+
+.prog2-text {
+    /* background-color: red !important; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    top: 100px;
+    /* right: 0%; */
+    left: 190px;
+    bottom: 0%;
+    position: absolute;
+    color: white;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #004671;
+    border: 5px solid rgb(206, 206, 206);
+}
+
+.prog2-text p {
+    font-size: 15px !important;
+}
+
+
+/* ============================================= */
+
+/* PROJE 2 START */
+.proj-conatiner {
+    margin-top: 300px;
+    /* background-color: red !important; */
+}
+
+.btn-main-div {
+    border: .2px solid rgba(0, 0, 0, 0.111);
+    /* background-color: #ededed; */
+}
+
+.btn-main-div button {
+    width: 25%;
+    border-radius: 0px !important;
+}
+
+.btn-main-div>div>:nth-child(1) {
+    color: white;
+
+    background-color: #004671;
+}
+
+@media screen and (max-width:767px) {
+    .btn-main-div button {
+        font-size: xx-small !important;
+    }
+
+    .btn-main-div :nth-child(2) {
+        /* width: fit-content; */
+        /* background-color: #004671; */
+        font-size: 8px !important;
+    }
+}
+
+/* PROJ 2 SEC END */
+
+/* ========================================================= */
+/* PROJ 3 GAL SEC START */
+.galler1 {
+    width: 100%;
+    height: 300px;
+    /* z-index: 100; */
+    inset: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./ziaInnerPic/25bc66349758869f74cc72ce19c71925.png') !important;
+    background-position: center;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-gal {
+    /* box-shadow: rgb(244, 244, 244) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset !important; */
+    background-color: white;
+    height: 40px !important;
+    /* width: 40px; */
+    border: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.proj-hover-div {
+    background: rgba(85, 85, 85, 0.25);
+    overflow: hidden;
+    transition: .8s;
+    height: 40%;
+    top: 100%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    /* margin: 10px; */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(0, 0, 0, 0.18); */
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.galler1:hover .proj-hover-div {
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
+.galler2:hover .proj-hover-div {
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
+.galler3:hover .proj-hover-div {
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
+.galler1 h3 {
+
+    /* text-align: end; */
+    font-weight: bolder;
+    /* color: red !important; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.galler2 {
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    inset: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./KabulPIcs/Rectangle\ 4770.png');
+    background-position: center;
+    margin: 10px;
+}
+
+.galler3 {
+    overflow: hidden;
+    margin: 10px;
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    inset: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./projgall3.png');
+    background-position: center;
+}
+
+
+
+.gal-4 {
+    background-color: #d9d7d7;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 90% 40% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./Clients/1690296258732.jpeg) !important;
+}
+
+.gal2 {
+    background-color: #d9d7d7;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./jhnson.jpeg) !important;
+}
+
+.John {
+    background-color: #d9d7d7;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./jhnson.jpeg) !important;
+}
+
+.gal3 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./PSO\ House.jpeg) !important;
+}
+
+.gal-5 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./TufailChemicals/70e6397169e4d2da9cac00039f016b71\ \(3\).png') !important;
+}
+
+.gal-6 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./Al\ Baraka\ Bank.jpeg);
+}
+
+.gal-7 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./DevisInnerPic/c13b7b345aa0c9c20c8e3d1edb68b5d0.png');
+}
+
+.hashi {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./hashim_mediacl.jpeg');
+}
+
+.gal-8 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 70% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./Clients/zafa.png');
+}
+
+.gal-9 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./Clients/download.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================NATION WIDE PROJ START */
+
+.gal-nat-3 {
+
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./DevisInnerPic/02c13fa9084263b37873ea19543b0264.png) !important;
+}
+
+.gal-nat-4 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./TufailChemicals/70e6397169e4d2da9cac00039f016b71\ \(3\).png') !important;
+}
+
+.gal-na-1 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('ziaInnerPic/25bc66349758869f74cc72ce19c71925.png') !important;
+}
+
+.gal-nat-5 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/a5bc/313e/f4cd5645b47d099a7ab971bd6599115d?Expires=1705276800&Signature=NYSxu5kWT9ZWm0ArPOc7xrLY61W86VjWtBKwKoeSasttYKvfwhCj~3JMBJBbS2tP1IYb5td2qQLoEiy-NrTAi8ah4yfA-FZbk9PwnP-E~zNcJb~kjpUE7FP5nXZvuol-z7NBmRvdkzld5JdLDdjcPGGA3cmdZDPod8Czgrf9W6jRFxPCafsOJBJCNjvm3Y7717NA-FyxrMMRORkus2rsUVQ1EqGvXqH2Y68SHyh9XQSLLNJvyQq5twIiTo9xZWjm1kxJTBQOKn1YjNCbhpS8g9g-WCbHzMNFytt1611C~dKq1ashIGR11Jwp814pXXBuzEWeGLb3DSYV1KCpyCIPdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.gal-nat-6 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/1131/27d9/e3730f52197c56c152fe9a00b0f9c6a3?Expires=1705276800&Signature=Xqy9B~Bq9GbNz6IZGwWFq6ncOh5cJEqh7oZpnDxYPZAKU6YREQiaiCdbU~b7xh~fls54vIcOYQ9KYtcRjOP4suIafPSrPe7Wp40Mwoio1KRV7R4kyw8~XqkmqWCR1u-CJIW~3fiz9uphPbiiw85w7QTkFTkQdDMvrnYa9ZkO3pIn3Y0e0mle~9~NokkIhHw6u7V3HSDvzGF~BA4UTBmzQr6gsNmjjWahpvWvkH2833ZFlk5asmpjlzLFzgKUX2-dSFDcxz7RqlENlA1n9ECuNpuZcPEluCBdKW9tnVYExbWY~yAYIrbdqb6gABPg7Sw~IQreVWEYs1LTXTzUv~nFeA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.gal-nat-7 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./PSO\ House.jpeg) !important;
+}
+
+.gal-nat-8 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url("./BACProjects/HudsonPharma.jpg") !important;
+}
+
+.AL-ABARKA {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url("./BACProjects/Al\ Baraka\ Bank.jpeg") !important;
+}
+
+.gal-nat-9 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url(./RegentPlaza.jpg) !important;
+}
+
+/* =======================NATION WIDE PROJ END */
+
+/* =================OVERWSEASE PROJECT START=============== */
+
+.over1 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: top !important;
+    background-image: url('UgaritPics/15cff8126896f931935ad0d5ebd1a629.png') !important;
+}
+
+
+
+.over3 {
+    /* background-color: #d9d7d7 !important; */
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-image: url('./UnionPIC/Rectangle\ 4770.png') !important;
+}
+
+
+.over5 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    /* background-image: url(./jhnson.jpeg) !important; */
+}
+
+.over6 {
+    background-color: #d9d7d7 !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('./ZarghunPics/Rectangle\ 4770.png') !important;
+}
+
+/* =================OVERWSEASE PROJECT END=============== */
+
+
+
+
+
+
+/* ============================CLIENT PROJECT START =================== */
+.c1 {
+    border: 3px solid black;
+    border-style: double;
+    background-color: #ffffff !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 250px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 80% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+
+}
+
+.c2 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/f86f/abd9/e4b555a53e5bf118f06b5c8cfb0bd2f3?Expires=1705276800&Signature=R0foPDxMHGro4WhiK1hFCp4dgLIXjQr8SPk8n6CG8qaiSjLfB8e2ZSDgssM0PmBpWArnAspzkVIo7-udLIYU176RFHqY3tMmh~jigIzumdC2zU85t98lArjO9KleXAuNwu3pvvBHYAx51VB6rfRJcGk2hVNqVvL6v5sthu~7l82uWlCxubeR-1CuvWEnLQlGpeAObpOZPFniznczK98BKBDdpQMcd0OfP9WQCb1qzarSaWm1LMDsHZKdOGwz4U~gusSnstEQ8pIbpb7vPkDQm3Hi9kiz1wYG9d9ZIA2-05vnAo25tA73NuLI0wvVVVpw0KMxOnPTRHF80~7jInQB-w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.c3 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 30% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/4b1a/6bf8/63e2f2d5d7e5c24befc56b0938de75a1?Expires=1705276800&Signature=c5cbwISGJLUWXbTljRzkbNw6d7dbf4E86UcZW2EHNfbX0H~ImOj~OvLnba8wAmhxU~YE~DlbyRy2mEEsyU0wa1sfcOZwEBEAF0CRgz3k0OvGqLEPo3Gz~YuyDfsHZM7CMms577QGYeVNiXSHbjxhipc4SIzcsglJRAH41zS2sMlZWBAOfcc17Cx3WvTY6Ddmj2PGdbIGKwxrzoc7IOR6WtgTacWojLlqjlaCPqDUtgpS0Xal7Rz-pKk92X6LZBHFo9PvIIkrGDpLEHL5Xh4gjc9KUGlmhysIdH~dd5qiHinXCycJ4aWLbVknhQzIY33zGyfsD4MtzHffZi~8c~JSgQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.c4 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/45ed/7bd9/b2c51281f7481ed901c3fc3a05e5e4bb?Expires=1705276800&Signature=MjaeQBEx1fxP6hrEgQPjLqexhCOMtSDoxZzdFiUlbdczoYZZf1mfmfpRKcJVyl6VA2OPvHvKqbTLZxYkU3iYYf0i52oDfMci-uYAVgt6ztucLCI226geOJ-52e~Fk05OFI4dgbClgFehX2Tk8rR~DOa3nZWx9JX-OXWTSalSmGBbLsN9DbFsfF23q7qWqYwo0h1MIcK77coM7TUhF~GzRyWYzMut8-~YNtrZLNHIcgrZybfXLDCvNusVeFy4MAI24CZKiojndH21T21ylw4SLLii-Gpk2ECwxLLS5Ir0zwdX7s~Inrh0zWXTq43FB0lqJucsN6RYK5fTBDTYTGV17Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.c6 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/672a/e55c/0629f7bf26cec00e762c7e9db63c6e43?Expires=1705276800&Signature=X~BKbenExILMveHFTYR2tBXUZjR4k25Pv~f-moJNlw2ZvdLKqyWJ6EMG3nEhd86G7x6NDWhqTI5KKD8vrUeQknhqKz16Lr7LJ14kStm0PrKscKCbkggaZBwl-rEebV7IUkSvm52RU7dKyjzmgA1WfuShC162OaaclVZyYGEmh3sNnShPd8qjGmrSV4T0eocWB0Y~PfykL2c8vNxb8Ya3HLhXEemMJbZNYfYPHgr6NyNbEI9X0hkmix7mL0M--YZN3RjVFQHjJeHtvHAzdZLShiTcMH~ECIRUGxg94HjB1HaWkym2hsKfYUzMpYBggndenCykG8EwXk1IVJ8zyi6hXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.c7 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/9d4b/b98a/464807845399d0182838f5f9d2aa0b0e?Expires=1705276800&Signature=dEyo1SvPOFwtFz5CO4ccuDYJKjRKX-EBBImt409YSWrKfPzhBJbQDgxB2GOIk-ABOFOuftkQW1bP4cXds-tgYvrF5uFwZsksCW39bceqYzKMpzFHHAoHXhhe4QFyVUqiukWS1tsLTpazGEwoSzeftVuj5pQbCzLCZMoUvOh0wZ5im1eTICspt2RTkn8rElxW7169P0aS2Dnij5P8-oWnNVPY4ZUILMCg2EWSmhywwXj5MKcHfqpb1s9Xq3x~d1q5pTCU6ojaXdznzv4j54l1xSD2YEPMBmabbCR7-4EbCWMCShK~33LIPhFqFGxDwrjzooMSF23p391MJAgI50V-Vw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+.c8 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d34c/8370/48206eb27a6985c72c5c2cd243732a6b?Expires=1705276800&Signature=i4DN0DPkq1PFXGldaRL6EjbtJZHTB6e8hTUJGElwhgJKoRnOZDwn6MQgXdVbFQUR6wW0a4QA4k~wgpuGJ8WQrabUBrDklYHSI29FbhD0UDo-nNgzdOxcrkicp3mPobrrlnjydn4fHm-YGX5gf65TA-ef~BU7ZIIV3hWJCKJwOwUokY~1lEvXFEQb3x4l58QT6N39RLs1DLkCxeM0fSJuidKHsT9V3UX4djm4bf5tVCkRrRRA4sRVpE15~Xae9m27GUJOrCsZXBkR08948WLGe81HI2KJOAA~wLXJ7QhykxeZLUO1kumzlwq1pZm1xGtxzl9o61IF6hCzcDfPA5MoBw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+
+}
+
+.c9 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d1da/94e7/734f3d400e930ef5b9a79feedfea1195?Expires=1705276800&Signature=RMNm4EePcjUySismNycjj6pXt10Zbhei-BgeVik7KXjpL61rPLBdg~yOu5qSkBPeCBG-A8hW1agN0tkdauBH3~q4Shptd0UA9X2ZmRUKBV1EWSYnZkGpebT3YrR4axuhhtdMpnc9P39aQO8inRexnm8ufZl9w1teGc5f0CTKG9QBdJBWvjDzv-0G11fGJpne1L26gcFKz8fsMbwwVcBB7I9kWNBn6QCgk3c76X2q0xvcZ7ioh5RTUzkptNM0b0BsNMSyV67K2r98Xvm2wwy6RR2HJlSn7oDXiVkjdVQLfBErHzLY~MB-CxD2RHNRYfn-UuD-5N4GVuTGSADjcEz~rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+
+}
+
+.c5 {
+    background-color: #ececec !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 100 !important;
+    inset: 0 !important;
+    background-size: 60% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-image: url('https://s3-alpha-sig.figma.com/img/f313/7a32/2f467857848100131b2d64a2dc735a47?Expires=1705276800&Signature=hP7VItL~NWqUCQoexMBKzq~e9kJyFVUTy-CY2AXED4n29aQrm6hawkLZMDFvOP7jWRhZSlPRFdbfuMjgCvITK8OpAsZVWasSIfivT9DgRPB6TJADRTZtvTUyobPKywWVzG2V~n6Bdc9-I3zHoUQnbjbfsU1OePVKVUHJDCAvgRleJxCwpoHAJS-VU0Q7mGrDlN1EomxyKCVpWBSO8QBqiIcWsiQlvHamLghCjtObB4hNmM~cKNPamKCUdqzuRt-z-7gdw5KuIwuxOP-1wMzlEm5A049JriGxGZlYUWv-XT1N-ngogOhulFHEqUbZU26Up~WpWiTqNxIL5z1MGqZWgw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') !important;
+}
+
+/* ============================CLIENT PROJECT END =================== */

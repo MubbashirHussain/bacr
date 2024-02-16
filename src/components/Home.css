@@ -1,0 +1,456 @@
+.vid {
+
+    cursor: pointer;
+    /* animation: myAnim 2s ease 0s 1 normal forwards; */
+}
+
+.gan {
+    background-image: url('https: //evroprom.com/wp-content/uploads/2021/10/28_22_carrier-30_rb_0522_1.jpg') !important;
+}
+
+.model-div img,
+video {
+    /* background-color: #005471 !important; */
+    width: 100px !important;
+    height: auto;
+    z-index: 15;
+}
+
+
+.weleocnP {
+    letter-spacing: 2px !important;
+    /* font-family: "Libre Baskerville", serif !importan
+    t; */
+    font-family: "Pacifico", cursive !important;
+    font-weight: lighter !important;
+    font-style: normal !important;
+    /* font-family: "Zeyada", cursive !important; */
+
+
+
+    font-size: 25px !important;
+
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+
+
+.weleocnP::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 8px;
+    border-radius: 100% 300% 100% 0%;
+    top: 100%;
+    right: 62%;
+    background-color: #002871
+        /* margin-top: -20px !important; */
+}
+
+.Rdiv-main-p {
+    margin-top: 30px;
+    /* font-size: 11px !important; */
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.model-div {
+
+
+
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box-main {
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70px;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgb(0, 45, 60);
+    background: radial-gradient(circle, rgba(0, 72, 97, 1) 50%, rgba(0, 84, 113, 1) 100%);
+}
+
+.box {
+    position: relative;
+    /* width: fit-content; */
+    /* background-color: red !important; */
+    transition: .2S ease;
+    /* width: 0PX; */
+
+}
+
+.box,
+.mod1-blob {
+    --border-size: 3px;
+    --border-angle: 0turn;
+    width: fit-content;
+    height: fit-content;
+    background-image: conic-gradient(from var(--border-angle),
+
+            50%,
+        ),
+        conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+        cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    animation: bg-spin 3s linear infinite;
+
+
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+&:hover {
+    animation-play-state: paused;
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+/* .box::before {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    content: " ";
+    border-radius: 20PX;
+    height: 6px;
+    width: 80%;
+
+    background-color: #033d50
+} */
+
+/* =============TRANSMDEOL 1 */
+
+
+
+
+
+.TransModel1 {
+    margin-top: 30px !important;
+    top: 50px;
+    position: absolute;
+    z-index: 10;
+    animation: tranMdoel1 5s ease 0s 1 normal forwards;
+}
+
+.TransModel2 {
+
+    z-index: 10;
+    position: absolute;
+
+    animation: tranMdoel2 5s ease 0s 1 normal forwards;
+}
+
+.TransModel3 {
+    height: 100%;
+    /* background-color: orange !important; */
+    width: 100% !important;
+    z-index: 10;
+    position: absolute;
+
+    animation: tranMdoel3 5s ease 0s 1 normal forwards;
+}
+
+.TransModel4 {
+    z-index: 10;
+    position: absolute;
+
+    animation: tranMdoel4 5s ease 0s 1 normal forwards;
+}
+
+@keyframes tranMdoel1 {
+    0% {
+
+        transform: scale(0) translateX(-800px);
+        transform-origin: 50% 100%;
+    }
+
+    25% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        transform-origin: 50% 100%;
+    }
+
+    50% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        transform-origin: 50% 100%;
+    }
+
+    75% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        transform-origin: 50% 100%;
+    }
+
+    100% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        transform-origin: 50% 100%;
+    }
+}
+
+
+@keyframes tranMdoel2 {
+    0% {
+
+        transform: scale(0) translateX(0px);
+        /* transform-origin: 50% 100%; */
+    }
+
+    25% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 50% 100%; */
+    }
+
+    50% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 50% 100%; */
+    }
+
+    75% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 50% 100%; */
+    }
+
+    100% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 50% 100%; */
+    }
+}
+
+.TransModel1 img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 30px !important;
+}
+
+.TransModel4 img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 30px !important;
+}
+
+.TransModel2 img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 30px !important;
+}
+
+.TransModel3 img {
+
+    /* background-color: red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* margin: 200px; */
+    border-radius: 30px !important;
+}
+
+
+@keyframes tranMdoel4 {
+    0% {
+
+        transform: scale(0) translateX(800px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    25% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    50% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+
+    }
+
+    75% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    100% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+}
+
+@keyframes tranMdoel3 {
+    0% {
+
+        transform: scale(0) translateX(800px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    25% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    50% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+
+    }
+
+    75% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+
+    100% {
+        /* transform:  !important; */
+        transform: scale(1) translateY(-200px);
+        /* transform-origin: 100% 80%; */
+    }
+}
+
+.threD {
+    /* position: relative; */
+}
+
+.threD-main {
+    height: 400px;
+}
+
+/* .TransModel1 img,
+.TransModel2 img,
+.TransModel3 img {
+    margin: 10px;
+    width: 300px !important;
+} */
+
+.TransModel1 video,
+.TransModel2 video,
+.TransModel3 video,
+.TransModel4 video {
+    /* background-color: rgb(58, 49, 49) !important; */
+    /* margin: 10px; */
+    width: 1300px !important;
+    height: 100% !important;
+    /* background-color: red !important; */
+}
+
+.mod1-blob {
+    top: -30px !important;
+
+    width: 40vh;
+    height: 40vh;
+    /* transform: translateY(-250px) !important; */
+    position: absolute;
+    background: #ffffff3c;
+    /* background: rgba(255, 255, 255, 0.25); */
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    animation: rotate360 80s linear infinite;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.test {
+    /* height: 50% !important; */
+    border-radius: 26% 74% 75% 25% / 31% 33% 67% 69%;
+    background-color: #0000004b !important;
+}
+
+@media screen and (max-width:767px) {
+
+
+    .TransModel1 {
+        top: 120px;
+        position: absolute;
+        z-index: 10;
+        animation: tranMdoel1 5s ease 0s 1 normal forwards;
+    }
+
+    .weleocnP::after {
+        position: absolute;
+        content: "";
+        /* width: 130px; */
+        height: 7px;
+        border-radius: 100% 10% 100% 80%;
+        top: 100%;
+        right: 50%;
+        background-color: #002871
+            /* margin-top: -20px !important; */
+    }
+
+    .last-video-model {
+        margin-left: -10px !important;
+    }
+
+    .weleocnP {
+        font-size: 5vw !important;
+    }
+
+    .mod1-blob {
+        top: 50px !important;
+
+        width: 35vh;
+        height: 35vh;
+        /* transform: translateY(-250px) !important; */
+        position: absolute;
+        background: #ffffff3c;
+        /* background: rgba(255, 255, 255, 0.25); */
+        /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        border-radius: 25px;
+        border: 1px solid #ffffff;
+        animation: rotate360 80s linear infinite;
+    }
+
+
+
+    .TransModel1 video,
+    .TransModel2 video,
+    .TransModel3 video,
+    .TransModel4 video {
+        /* background-color: rgb(153, 19, 19) !important; */
+        /* margin: 10px; */
+        width: 300px !important;
+    }
+}
+
+.vid img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px !important;
+}
+
+/* =============TRANSMDEOL 2 */

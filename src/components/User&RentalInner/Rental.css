@@ -1,0 +1,71 @@
+.rental2 p {
+    font-size: smaller;
+}
+
+.reantal2_section {
+    background-color: rgba(128, 128, 128, 0.135);
+}
+
+.rental2-R {
+    border-radius: 13px;
+    /* background-image: url('r3.png'); */
+    /* width: 100%; */
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+
+.rental2-R img {
+    border-radius: 13px;
+    height: 100%;
+    width: 100%;
+}
+
+.rentalImg {
+    width: 100%;
+    height: 100%;
+}
+
+.rent img {
+    width: 100%;
+}
+
+/* =================REANTAL 2 EN */
+
+
+/* =================REANTAL 3 START */
+.ren3-main {
+    height: 35vh;
+    /* background-color: black; */
+    /* width: 75%; */
+}
+
+.ren3-bg-img {
+    border-radius: 17px;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+
+
+}
+
+.ren3-bg-img img {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.ren3R-bg-img img {
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("https://www.missioncriticalmagazine.com/ext/resources/Amy-2020/August/Carrier.jpg?1596395419");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* =================REANTAL 3 END */

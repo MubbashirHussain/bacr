@@ -1,0 +1,203 @@
+/* ====GLOBAL MIAN START */
+.bg-back {
+    height: 60vh;
+    background-color: #00456F;
+    border-radius: 0px 0px 0px 50px;
+}
+
+@media screen and (max-width:767px) {
+    .para {
+        opacity: .5;
+        display: none !important;
+    }
+}
+
+/* .bg-back p {
+    position: relative;
+    top: 30%;
+    color: rgb(255, 255, 255) !important;
+} */
+
+.bg-left {
+    /* background-color: rebeccapurple; */
+    height: 30vh;
+}
+
+.global-sec {
+    margin-bottom: 150px !important;
+}
+
+.absorb1-img>img {
+    height: 19vh !important;
+    width: 180px !important;
+}
+
+.global-img {
+    inset: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.img-div {
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+
+    background-color: #d9d9d9 !important;
+    /* background-color: #00456F; */
+}
+
+.global-main-img img {
+    margin: 20px;
+
+    width: auto;
+    height: 19vh;
+
+}
+
+.Absorb-div {
+    height: 60vh;
+}
+
+.Absorb-inner {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* filter: blur(2px); */
+    /* Add any other custom styles you want */
+    position: relative;
+    isolation: isolate;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://s3-alpha-sig.figma.com/img/320c/9b25/2a660f575be69cd86b8442c7c7b1e514?Expires=1705276800&Signature=pz0xQ6BgXKwX6ed3WrecQlcKkTolOMpsZdGvbh6cZ0CtP~A8EYRsRXdyOSQwzxfG5ozSZcHKunUE6qGvsZYgt-I6ppjlBCJNi4GNgYa4WXvdnQWAPjeNC7dsAyzoRe8dUfM50Kp1qI9BqlXsQqBYPESmOqtKvsH0YuWveZs9W1OhdHDea~WMa~1Squn2WpG4yyoiIxq8lWUsdt87ttdLwq~ZnipjBVMGlKhhAi-~2qyAqawRvCXRaTQsDlbksMqBDYhwnk37iQ5YDalsIgvIklefR29V6chu5ryLsj6DIL2seyIrGPoFp-NBGKpNCzP6NcCkAFe~tQMzIZmPTbknCA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+
+.Absorb-inner::after {
+    opacity: 1s;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.507);
+    left: 0%;
+    z-index: -1;
+
+
+    /* border-radius: 10px; */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    inset: 0;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) and (max-width: 1023px) {
+    .bg-left {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .bg-left h1 {
+        font-size: large !important;
+    }
+}
+
+/* COOLING  */
+.coolingimg-3 img {
+    width: 220px;
+}
+
+/* TABLE  */
+/* InventoryTable.css */
+
+/* body {} */
+
+.T1 {
+    color: white;
+    background-color: #00456F;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: auto 0%
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    /* width: fit-content !important; */
+}
+
+.parts-available {
+    /* background-color: #4a91c3; */
+    /* color: #fff; */
+}
+
+.section-sold {
+    /* background-color: #919191; */
+    /* color: #fff; */
+}
+
+.pending {
+    /* background-color: #005471; */
+    /* color: #ffffff; */
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    th,
+    td {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        box-sizing: border-box;
+    }
+
+    td {
+        text-align: left;
+    }
+}
+
+.scrol {
+    /* width: 300px,
+     */
+    width: 300px;
+    height: 200px;
+    margin: 2px auto;
+    overflow: scroll;
+    /* height: 200px,
+        overflow: auto,
+        border: 1px solid #ccc,
+        padding: 10px,
+        margin: s20px auto, */
+}
+
+.scrol::-webkit-scrollbar {
+    /* background: #00456F; */
+    width: 0px;
+}
+
+.scrol::-webkit-scrollbar-thumb {
+    background: #00456F;
+    width: 0px;
+}
+
+@media (hover: none) {
+    .scrol {
+        /* Add styles specific to touch devices if needed */
+    }
+}
+
+/* body */
